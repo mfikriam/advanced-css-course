@@ -22,6 +22,10 @@ body {
   padding: 30px;
 }
 
+/***************************************/
+/** HEADER */
+/***************************************/
+
 .header {
   height: 95vh;
   background-image: linear-gradient(
