@@ -135,6 +135,10 @@ body {
   }
 }
 
+/***************************************/
+/** GENERAL REUSABLE COMPONENTS */
+/***************************************/
+
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
