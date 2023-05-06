@@ -1,3 +1,21 @@
+/*
+  * MEDIA QUERY MANAGER
+
+  ?  0 - 600px        : Phone
+  ?  600px - 900px    : Tablet Potrait
+  ?  900px - 1200px   : Tablet Landscape
+  ?  1200px - 1800px  : Desktop (Normal)
+  ?  1800px ~         : Big Desktop
+
+  * Break Point Argument Choices:
+
+  ? ~ phone
+  ? ~ tab-port
+  ? ~ tab-land
+  ? ~ big-desktop
+
+  ! em = 16px
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -35,6 +53,15 @@
 
 html {
   font-size: 62.5%; }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }
