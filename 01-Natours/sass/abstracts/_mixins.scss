@@ -30,6 +30,7 @@
   ? ~ big-desktop
 
   ! em = 16px
+  ! ORDER: Base + typography > general layout + grid > page layout > components
 */
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
