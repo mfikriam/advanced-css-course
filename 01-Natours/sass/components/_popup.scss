@@ -47,8 +47,13 @@
   }
 
   &__img {
-    display: inline-block;
-    width: 50%;
+    display: block;
+    width: 100%;
+
+    @include respond(tab-port) {
+      display: inline-block;
+      width: 50%;
+    }
   }
 
   &__text {

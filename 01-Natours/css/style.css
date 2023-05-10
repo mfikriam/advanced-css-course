@@ -566,8 +566,12 @@ body {
       .popup__right {
         width: 100%; } }
   .popup__img {
-    display: inline-block;
-    width: 50%; }
+    display: block;
+    width: 100%; }
+    @media (max-width: 56.25em) {
+      .popup__img {
+        display: inline-block;
+        width: 50%; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
