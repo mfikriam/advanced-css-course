@@ -10,6 +10,13 @@
   visibility: hidden;
   transition: all 0.3s;
 
+  @supports (-webkit-backdrop-filter: blur(10px)) or
+    (backdrop-filter: blur(10px)) {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba($color-black, 0.3);
+  }
+
   &__content {
     @include absCenter;
 
@@ -25,7 +32,7 @@
   }
 
   &__left {
-    width: 33.333333%;
+    width: 33%;
     display: table-cell;
 
     @include respond(tab-port) {
@@ -36,7 +43,7 @@
   }
 
   &__right {
-    width: 66.666667%;
+    width: 67%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem;
