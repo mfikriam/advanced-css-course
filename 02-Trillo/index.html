@@ -12,9 +12,12 @@
   </head>
   <body>
     <div class="container">
+      <!--!=========== HEADER ===========-->
       <header class="header">
+        <!--*=========== LOGO ===========-->
         <img src="img/logo.png" alt="trillo logo" class="logo" />
 
+        <!--*=========== SEARCH ===========-->
         <form action="#" class="search">
           <input type="text" class="search__input" placeholder="Search hotels" />
           <button title="search button" type="button" class="search__button">
@@ -24,6 +27,7 @@
           </button>
         </form>
 
+        <!--*=========== USER NAVIGATION ===========-->
         <nav class="user-nav">
           <div class="user-nav__icon-box">
             <svg class="user-nav__icon">
@@ -43,9 +47,13 @@
           </div>
         </nav>
       </header>
+
+      <!--!=========== CONTENT ===========-->
       <div class="content">
+        <!--*=========== SIDEBAR ===========-->
         <nav class="sidebar">
           <ul class="side-nav">
+            <!-- ? NAV 1 -->
             <li class="side-nav__item side-nav__item--active">
               <a href="#" class="side-nav__link">
                 <svg class="side-nav__icon">
@@ -54,6 +62,7 @@
                 <span>Hotel</span>
               </a>
             </li>
+            <!-- ? NAV 2 -->
             <li class="side-nav__item">
               <a href="#" class="side-nav__link">
                 <svg class="side-nav__icon">
@@ -62,6 +71,7 @@
                 <span>Flight</span>
               </a>
             </li>
+            <!-- ? NAV 3 -->
             <li class="side-nav__item">
               <a href="#" class="side-nav__link">
                 <svg class="side-nav__icon">
@@ -70,6 +80,7 @@
                 <span>Car rental</span>
               </a>
             </li>
+            <!-- ? NAV 4 -->
             <li class="side-nav__item">
               <a href="#" class="side-nav__link">
                 <svg class="side-nav__icon">
@@ -83,7 +94,9 @@
           <div class="legal">&copy; 2017 by trillo. All rights reserved.</div>
         </nav>
 
+        <!--*=========== HOTEL VIEW ===========-->
         <main class="hotel-view">
+          <!-- ? GALLERY -->
           <div class="gallery">
             <figure class="gallery__item">
               <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo" />
@@ -96,6 +109,7 @@
             </figure>
           </div>
 
+          <!-- ? OVERVIEW -->
           <div class="overview">
             <h1 class="overview__heading">Hotel Las Palmas</h1>
             <div class="overview__stars">
@@ -129,6 +143,7 @@
             </div>
           </div>
 
+          <!-- ? DETAIL -->
           <div class="detail">
             <div class="description">
               <p class="paragraph">
@@ -196,6 +211,7 @@
             </div>
           </div>
 
+          <!-- ? CALL TO ACTION -->
           <div class="cta">
             <h2 class="cta__book-now">Good news! We have 4 free rooms for your selected dates!</h2>
             <button type="button" class="btn">
